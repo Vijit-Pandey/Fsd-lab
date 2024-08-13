@@ -1,0 +1,171 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styling for the main container */
+div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Header styles */
+h2 {
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+/* Unordered list styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* List item styles */
+li {
+    background-color: #e9ecef;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Paragraph styles */
+p {
+    line-height: 1.6;
+}
+
+/* Link styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.selection-bar {
+    margin-top: auto; /* Pushes the selection bar to the bottom */
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#page-selector {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.faded-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the rgba values for different colors and transparency levels */
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.section-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0044cc;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* List style */
+.transport-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Style for each transport section */
+.section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Style for the image container */
+.image-container {
+    flex: 1;
+    margin-right: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the images */
+.image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover effect on images */
+.image-container img:hover {
+    transform: scale(1.05);
+    filter: brightness(0.9);
+}
+
+/* Style for the text description */
+.text-description {
+    flex: 2;
+    font-size: 16px;
+}
+
+/* Information text style */
+.info-text {
+    font-size: 18px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Style for the page selector */
+.selection-bar .form-select {
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Margin-top for the selection bar */
+.selection-bar.mt-2 {
+    margin-top: 20px;
+}

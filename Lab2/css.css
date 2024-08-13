@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap');
+#para{
+    color: red;
+    text-overflow: clip;
+    font-family: "Zain";
+    text-shadow:5px 5px 5px ;
+} 
+.center1 {
+    color: blue;
+    text-align: center;
+}   
