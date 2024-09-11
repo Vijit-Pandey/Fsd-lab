@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="index.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #b4b5b7; /* Darker background color */
+        }
+        .form-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-title {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .btn-primary {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="form-container">
+                    <div class="form-title">Registration Form</div>
+                    <form onsubmit="return validateForm(event)" method="post">
+                        <div class="form-group">
+                            <label for="name">Enter your Username here:</label>
+                            <input type="text" class="form-control" name="name" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Enter your Email here:</label>
+                            <input type="email" class="form-control" name="email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Enter your phone Number here:</label>
+                            <input type="text" class="form-control" name="number" id="number">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Enter your password here:</label>
+                            <input type="password" class="form-control" name="password" id="password">
+                        </div>
+                        <div class="form-group">
+                            <label for="confirmPassword">Confirm your password here:</label>
+                            <input type="password" class="form-control" name="confirmPassword" id="confirmPassword">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
